@@ -118,30 +118,6 @@ float:left
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 footer{
     padding:10px;
@@ -149,4 +125,52 @@ footer{
     color:#fff;
     font-size: 20px;
     text-align: center;
+}
+
+/*media query*/
+@media(max-width:650px){
+    #boxes .container
+   
+    {  
+        display:block;
+    }
+    #boxes .box img{
+        width:90px; 
+    }
+    #boxes .box{
+        width:100%;
+    }
+    #subscribe-us form{
+        float:none;
+       
+    }
+    #subscribe-us form input[type="email"]{
+        width:100%;
+    }
+    #subscribe-us form input[type="button"]{
+        width:100%;
+        margin-top:10px;
+        
+    }
+    #subscribe-us h1{
+        text-align: center;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    header #logo,
+  header nav,
+    header nav li{
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+    #banner h1{
+        font-size: 40px;
+       margin-top:30px;
+    }
+    #banner p{
+        font-size:20px;
+        margin-bottom: 40px;
+    }
 }
