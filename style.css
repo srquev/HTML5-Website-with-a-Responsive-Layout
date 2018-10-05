@@ -99,18 +99,22 @@ float:left
 }
 
 /*boxes*/
-#boxes{
-    margin:50px 0;
-    justify-content: space-around;
+#boxes .container{
+    max-width: 100%;
+    padding:30px 0;
+    display: flex;
+   justify-content: space-between;
+
 }
 #boxes .box{
-    float:left;
+     
+   
     text-align: center;
     width:20%;
-    margin-right: 50px;
+    
 }
 #boxes .box img{
-    width:90px;
+    width:50px;
 }
 
 
