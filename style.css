@@ -81,13 +81,13 @@ ul{
 }
 #subscribe-us h1{
   margin: 0;
-float:left
+  float:left
 }
 #subscribe-us form{
     float:right;
 }
 #subscribe-us input[type="email"]{
-    
+   
     padding:10px 5px;
     width:250px;
 }
@@ -96,6 +96,13 @@ float:left
     color:#fff;
     border:none;
     padding:12px 20px;
+}
+#subscribe-us input[type="button"]:hover{
+    background: #e5853c;
+    cursor: pointer;
+    font-weight: bold;
+    transition: :0.5s ease;
+   
 }
 
 /*boxes*/
@@ -153,10 +160,14 @@ footer{
         
     }
     #subscribe-us h1{
+        float:none;
         text-align: center;
+        margin-bottom:10px;
     }
+    
+
     header{
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     header #logo,
   header nav,
